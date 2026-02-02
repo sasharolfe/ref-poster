@@ -1,3 +1,39 @@
-h1 {
-  color: red;
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+.all-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.processing {
+  font-family: Arial;
+  font-weight: bold;
+  letter-spacing: 13px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.creative {
+  font-family: Arial;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.company {
+  font-family: Arial;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  color: gray;
 }
