@@ -45,7 +45,7 @@ body {
   height: 3px;
   background: white;
   border-radius: 50%;
-  animation: pulse 5s ease-in-out infinite, themeSwitch 20s 
+  animation: pulse 5s ease-in-out infinite, themeSwitch 20s infinite;
 }
 
 .processing {
