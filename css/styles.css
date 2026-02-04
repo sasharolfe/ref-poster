@@ -12,6 +12,20 @@ body {
   flex-direction: column;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  grid-template-rows: repeat(10, 40px);
+  gap: 15px;
+}
+
+.circle {
+  width: 3px;
+  height: 3px;
+  background: white;
+  border-radius: 50%;
+}
+
 .processing {
   font-family: Arial;
   font-weight: bold;
