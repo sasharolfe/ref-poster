@@ -26,7 +26,7 @@ body {
   align-items: center;
   background: black;
   animation: themeSwitch 20s infinite;
-  font-size: 100%;
+  font-size: 1vmin;
 }
 
 .all-container {
@@ -36,14 +36,14 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(10, 2.5em);
-  grid-template-rows: repeat(10, 2.5em);
-  gap: 1em;
+  grid-template-columns: repeat(10, 5vmin);
+  grid-template-rows: repeat(10, 5vmin);
+  gap: 2vmin;
 }
 
 .circle {
-  width: .2em;
-  height: .2em;
+  width: .5vmin;
+  height: .5vmin;
   background: white;
   border-radius: 50%;
   animation: pulse 5s ease-in-out infinite, themeSwitch 20s infinite;
@@ -52,8 +52,8 @@ body {
 .processing {
   font-family: Arial;
   font-weight: bold;
-  letter-spacing: .8em;
-  font-size: 1.25em;
+  letter-spacing: 1.5vmin;
+  font-size: 3.1vmin;
   display: flex;
   align-items: center;
   color: white;
@@ -66,7 +66,7 @@ body {
 
 .creative {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .9em;
+  font-size: 2.1vmin;
   display: flex;
   align-items: center;
   color: gray;
@@ -74,7 +74,7 @@ body {
 
 .company {
   font-family: Arial;
-  font-size: .6em;
+  font-size: 1vmin;
   display: flex;
   align-items: center;
   color: gray;
