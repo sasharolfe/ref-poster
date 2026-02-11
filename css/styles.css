@@ -24,6 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 4vmin;
   background: black;
   animation: themeSwitch 20s infinite;
   font-size: 1vmin;
